@@ -1,45 +1,50 @@
 body {
-  background: #f7f2e4;
+  background: #455A64;
+  color: #FFFFFF;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  color: #1f1703;
+  color: #FFFFFF;
   text-align: center;
+  font-family: 'Overlock', cursive;
 }
 
 h2 {
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .card-container {
   display: flex; 
   flex-flow: row wrap;
   justify-content: space-around;
-  height: 550px;
+  height: 565px;
   margin: 15px;
 }
 
 .card {
-  border-color: lightblue;
+  border-color: #FFC107;
   border-style: solid;
-  box-shadow: 1px 2px;
+  box-shadow: 1px 1px #FFC107;;
   border-width: 1px;
-  height: 525px;
+  height: 550px;
   width: 250px;
   line-height: 80%;
+  background-color: #607D8B;
 }
 
 .blend {
   border-width: 1px;
-  border-color: lightblue;
+  border-color: #FFC107;
   border-bottom-style: solid;
   width: 250px;
   margin-bottom: 10px;
 }
 
 .availability{
-  background-color: darkgray;
-  color: yellow;
+  background-color: #CFD8DC; 
+  color: #757575; ;
   line-height: 120%;
   font-weight: bold;
 }
@@ -73,6 +78,7 @@ h2 {
 
 .description {
   padding: 0px 10px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .tiny {
