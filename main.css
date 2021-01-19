@@ -133,3 +133,25 @@ h2 {
   padding: 0px 7px;
   font-size: 14px;
 }
+
+@media (max-width: 480px) {
+  .card-container {
+      display: flex; 
+      flex-flow: row wrap;
+      justify-content: space-around;
+      height: 105px;
+      margin: 15px;
+  }
+  .card {
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: 1px 1px #FFC107;
+    border-width: 1px;
+    height: 100px;
+    width: 75px;
+    line-height: 80%;
+    background-color: #607D8B;
+  }
+
+
+}
